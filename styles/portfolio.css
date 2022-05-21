@@ -1,9 +1,135 @@
-.spisok{
+.header{
+    padding: 32px 215px 32px;
     
+ }
+ .container{
+     display: flex;
+ }
+ .web{
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     color: #2196F3;
+ }
+ .studio{
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     color:#212121;
+ }
+ .nav{
+     margin-right: 250px;
+ }
+ .navigation-link{
+     margin-right: 50px;
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     color: #2196F3;
+ }
+ 
+ .navigation-link1{
+     margin-right: 50px;
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     color: #212121;   
+ }
+ .navigation-link2{
+     margin-right: 50px;
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.02em;
+     color: #2196F3;
+ }
+ .navigation-link3{
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     color: #757575;
+ }
+ 
+ 
+ .link{
+     list-style-type: none;
+     display: inline-flex;
+     
+ }
+ .link2{
+     list-style-type: none;
+     display: inline-flex;
+ }
+ 
+
+.menu{
+ display: inline-flex;
+ list-style-type:none        
 }
 
 
+.portfolio{
+ display: flex;
+ flex-wrap: wrap;
+ width: 1200px;
+ list-style-type:none
+   
+}
+.portfolio1{
+    margin-right: 30px; 
+    img:nth-child 
+      
+}
+
+img:nth-child(3)
+img:nth-child(6)
+img:nth-child(9) {
+    margin-right: 0;
+}
+.h3{
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+
+}
+.p{
+    margin-left: 24px;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+
+
+}
 
 .footer{
     background-color: #2F303A;
+
+    
+}
+.adress{
+    list-style-type:none  
 }
