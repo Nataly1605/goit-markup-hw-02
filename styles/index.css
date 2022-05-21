@@ -110,6 +110,7 @@
     color: #FFFFFF;
     width: 200px;
     height: 50px;
+    cursor: pointer;
 }
 .skils2{
     display: none;
@@ -151,9 +152,8 @@
     
 }
 .work1{
-    
-    
-    list-style-type:none
+      
+    list-style-type:none;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -164,6 +164,8 @@
     margin bottom: 94px;
     
 }
+
+
 .foto{
     margin-left: 30px;
     margin-bottom: 94px;
@@ -261,9 +263,16 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-
+text-decoration: none;
 
 }
+.navigation:hover{
+    color: #2196F3;   
+}
+.navigation1:hover{
+    color: #2196F3;   
+}
+
 .navigation1{
 margin-bottom: 9px;
 font-family: 'Roboto', sans-serif;
@@ -272,6 +281,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 
 

@@ -100,6 +100,7 @@
     line-height: 26px;
     text-align: center;
     color: #212121;
+    cursor: pointer;
    
  }
  .reserv:hover{
@@ -174,6 +175,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
+text-decoration: none;
 
 
 }
@@ -185,8 +187,14 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
-
+.navigation:hover{
+    color: #2196F3;   
+}
+.navigation1:hover{
+    color: #2196F3;   
+}
 
 
 
